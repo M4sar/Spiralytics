@@ -194,3 +194,37 @@
   text-align: center;
   padding: 20px;
 }
+.hovheadblock2 {
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  background: #f8f9fa00;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.5s ease;
+}
+
+.hovheadblock2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #26265a60, #4a3e6560);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hovheadblock2:hover {
+  color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.hovheadblock2:hover::before {
+  opacity: 1;
+}

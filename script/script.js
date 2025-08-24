@@ -57,7 +57,7 @@ for (let textBlock of divHovHeadBlock) {
         const img = textBlock.querySelector(".hov-head-block .head-img");
 
         img.style.transform = "scale(1.1)";
-        text.style.transform = "rotate(-0.6deg) translateY(-0.5px) scale(1.05)";
+        text.style.transform = "rotate(-1deg) translateY(-0.5px) ";
       });
       // При движении по блоку div изменять стиль текста внутри
       textBlock.addEventListener("mouseout", () => {

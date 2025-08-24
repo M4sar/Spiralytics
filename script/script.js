@@ -1,14 +1,72 @@
-const html = document.documentElement;
-// Свойство tagName узла содержит имя тега в верхнем регистре
-console.log(html.lastChild); // => 'HTML'
+//
+//
+// Смена темы
+const chanhgeTheme = document.getElementById("chanhgeTheme");
+const background = document.getElementById("background");
+const imgToggleTheme = document.getElementById("imgToggleTheme");
+// При клике - заменить класс для background & сменить alt
+chanhgeTheme.addEventListener("click", () => {
+  if (imgToggleTheme.getAttribute("alt") === "dark_theme") {
+    background.classList.toggle("site-background-light");
+    background.classList.toggle("site-background-dark");
+    imgToggleTheme.setAttribute("src", "static/images/light_theme.png");
+    imgToggleTheme.setAttribute("alt", "light_theme");
+    console.log("hello");
+  } else {
+    imgToggleTheme.setAttribute("src", "static/images/dark_theme.png");
+    imgToggleTheme.setAttribute("alt", "dark_theme");
+    background.classList.toggle("site-background-light");
+    background.classList.toggle("site-background-dark");
+    console.log("bye");
+  }
+});
 
-// Содержимое тега HTML в виде узлов DOM-дерева
-// Текст тоже представлен узлом
-html.childNodes; // [head, text, body]
+//
+//
+// Анимация заголовков в header
+const headText = document.getElementsByClassName("head-text");
+const div = document.querySelectorAll(".hov-head-block");
 
-// Потому что head выше body
-html.firstChild; // <head>...</head>
-html.lastChild; // <body>...</body>
+// Найти каждый блок div from header
+for (let textBlock of div) {
+  textBlock.addEventListener("mouseover", (hov) => {
+    const el = hov.target.getAttribute("class");
 
-// Второй узел, обращение по индексу
-html.childNodes[1]; // #text
+    if (el === "head-text-main" || el === "head-img-main") {
+      const imgMain = textBlock.querySelector(".hov-head-block .head-img-main");
+      const text = textBlock.querySelector(".hov-head-block .head-text-main");
+
+      text.style.transform = "rotate(-0.6deg) translateY(-0.5px) scale(1.05)";
+      imgMain.style.transform = "rotate(-360deg)";
+
+      textBlock.addEventListener("mouseout", () => {
+        const imgMain = textBlock.querySelector(
+          ".hov-head-block .head-img-main"
+        );
+        const text = textBlock.querySelector(".hov-head-block .head-text-main");
+
+        text.style.transform = "rotate(0deg) translateY(0px) scale(1)";
+        imgMain.style.transform = "rotate(0deg)";
+      });
+    }
+
+    if (el === "head-text" || el === "head-img") {
+      textBlock.addEventListener("mouseover", () => {
+        const text = textBlock.querySelector(".hov-head-block .head-text");
+        // const imgMain = textBlock.querySelector(".hov-head-block .head-img-main");
+        const img = textBlock.querySelector(".hov-head-block .head-img");
+
+        img.style.transform = "scale(1.1)";
+        text.style.transform = "rotate(-0.6deg) translateY(-0.5px) scale(1.05)";
+      });
+      // При движении по блоку div изменять стиль текста внутри
+      textBlock.addEventListener("mouseout", () => {
+        const text = textBlock.querySelector(".hov-head-block .head-text");
+        const img = textBlock.querySelector(".hov-head-block .head-img");
+
+        img.style.transform = "scale(1)";
+        text.style.transform = "rotate(0deg) translateY(0px) scale(1)";
+      });
+    }
+  });
+}

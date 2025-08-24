@@ -1,0 +1,253 @@
+2025-08-22 00:24:13.849 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 00:24:30.128 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 00:26:42.460 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 00:26:46.917 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:03:25.846 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:05:52.697 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:16:57.047 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:17:05.735 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:18:20.386 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:20:06.083 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:23:44.694 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:23:52.146 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:23:53.912 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:24:17.744 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:46:50.616 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:46:52.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:47:07.830 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:47:20.666 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:48:10.058 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 02:48:17.357 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 02:58:36.126 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 03:12:52.117 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 03:12:54.207 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 03:33:41.708 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
+2025-08-22 04:02:15.161 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2025-08-22 04:02:15.182 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2025-08-22 04:02:15.275 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2025-08-22 04:02:15.345 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2025-08-22 04:02:15.346 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/ibrag/My%20documents/Spiralytics
+2025-08-22 04:02:15.347 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/ibrag/My%20documents/Spiralytics
+2025-08-22 04:02:15.369 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/ibrag/My%20documents/Spiralytics
+2025-08-22 04:02:15.371 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2025-08-22 04:02:15.371 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/ibrag/My documents/Spiralytics/.rmv/config
+2025-08-22 04:02:15.371 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2025-08-22 04:02:15.371 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/ibrag
+2025-08-22 04:02:15.383 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2025-08-22 04:02:15.385 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2025-08-22 04:02:15.387 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2025-08-22 04:02:15.390 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\ibrag\My documents\Spiralytics\.rmv\documentation\UNIVERSE\custom.json
+2025-08-22 04:02:15.391 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\ibrag\documentation\UNIVERSE\custom.json
+2025-08-22 04:02:15.477 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2025-08-22 04:02:15.491 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/ibrag/My documents/Spiralytics) load start
+2025-08-22 04:02:15.507 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2025-08-22 04:02:15.778 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2025-08-22 04:02:15.782 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2025-08-22 04:02:15.782 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2025-08-22 04:02:15.783 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2025-08-22 04:02:15.783 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/ibrag/My documents/Spiralytics) load end
+2025-08-22 04:02:15.785 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/ibrag/My documents/Spiralytics/config/capability) doesn't exist or read error, default config will take effect
+2025-08-22 04:02:15.785 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2025-08-22 04:02:15.788 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2025-08-22 04:02:15.805 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2025-08-22 04:02:15.809 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2025-08-22 04:02:15.890 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Spiralytics account
+2025-08-22 04:02:15.897 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.899 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.901 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Spiralytics, its period 5s 
+2025-08-22 04:02:15.901 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2025-08-22 04:02:15.902 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.903 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.903 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2025-08-22 04:02:15.904 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2025-08-22 04:02:15.905 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.905 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.905 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2025-08-22 04:02:15.906 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-08-22 04:02:15.906 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.907 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.907 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-08-22 04:02:15.909 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-08-22 04:02:15.910 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.910 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.911 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-08-22 04:02:15.912 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2025-08-22 04:02:15.913 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.913 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.914 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2025-08-22 04:02:15.915 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-08-22 04:02:15.915 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.915 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.916 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-08-22 04:02:15.916 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-08-22 04:02:15.917 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.917 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.917 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-08-22 04:02:15.918 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in static account
+2025-08-22 04:02:15.919 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 04:02:15.919 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 04:02:15.920 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for static, its period 5s 
+2025-08-22 04:02:15.923 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=remotes, path=C:/Users/ibrag/My documents/Spiralytics/.git/logs/refs/remotes, type=PREDICT}
+Account{name=refs, path=C:/Users/ibrag/My documents/Spiralytics/.git/logs/refs, type=PREDICT}
+Account{name=.git, path=C:/Users/ibrag/My documents/Spiralytics/.git, type=PREDICT}
+Account{name=remotes, path=C:/Users/ibrag/My documents/Spiralytics/.git/refs/remotes, type=PREDICT}
+Account{name=refs, path=C:/Users/ibrag/My documents/Spiralytics/.git/refs, type=PREDICT}
+Account{name=Spiralytics, path=C:/Users/ibrag/My documents/Spiralytics, type=PREDICT}
+Account{name=objects, path=C:/Users/ibrag/My documents/Spiralytics/.git/objects, type=PREDICT}
+Account{name=logs, path=C:/Users/ibrag/My documents/Spiralytics/.git/logs, type=PREDICT}
+Account{name=static, path=C:/Users/ibrag/My documents/Spiralytics/static, type=PREDICT}
+2025-08-22 04:02:15.923 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2025-08-22 04:02:15.924 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\ibrag/.rmv/config) watcher launch successful
+2025-08-22 04:02:17.225 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 04:02:17.434 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 04:02:17.454 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 04:02:25.313 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 04:02:45.911 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
+2025-08-22 15:21:31.013 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2025-08-22 15:21:31.034 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2025-08-22 15:21:31.154 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2025-08-22 15:21:31.224 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2025-08-22 15:21:31.224 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///c%3A/Users/ibrag/My%20documents/Spiralytics
+2025-08-22 15:21:31.226 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///c%3A/Users/ibrag/My%20documents/Spiralytics
+2025-08-22 15:21:31.246 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///c%3A/Users/ibrag/My%20documents/Spiralytics
+2025-08-22 15:21:31.247 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2025-08-22 15:21:31.249 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : C:/Users/ibrag/My documents/Spiralytics/.rmv/config
+2025-08-22 15:21:31.249 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2025-08-22 15:21:31.250 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/ibrag
+2025-08-22 15:21:31.259 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2025-08-22 15:21:31.262 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2025-08-22 15:21:31.263 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2025-08-22 15:21:31.265 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: C:\Users\ibrag\My documents\Spiralytics\.rmv\documentation\UNIVERSE\custom.json
+2025-08-22 15:21:31.266 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\ibrag\documentation\UNIVERSE\custom.json
+2025-08-22 15:21:31.329 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2025-08-22 15:21:31.338 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(C:/Users/ibrag/My documents/Spiralytics) load start
+2025-08-22 15:21:31.352 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2025-08-22 15:21:31.621 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2025-08-22 15:21:31.625 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2025-08-22 15:21:31.626 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2025-08-22 15:21:31.627 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2025-08-22 15:21:31.628 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(C:/Users/ibrag/My documents/Spiralytics) load end
+2025-08-22 15:21:31.629 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(C:/Users/ibrag/My documents/Spiralytics/config/capability) doesn't exist or read error, default config will take effect
+2025-08-22 15:21:31.630 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2025-08-22 15:21:31.633 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2025-08-22 15:21:31.650 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2025-08-22 15:21:31.653 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2025-08-22 15:21:31.766 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Spiralytics account
+2025-08-22 15:21:31.776 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.779 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.780 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Spiralytics, its period 5s 
+2025-08-22 15:21:31.781 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2025-08-22 15:21:31.781 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.782 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.782 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2025-08-22 15:21:31.783 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2025-08-22 15:21:31.783 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.784 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.784 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2025-08-22 15:21:31.785 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-08-22 15:21:31.785 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.786 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.786 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-08-22 15:21:31.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-08-22 15:21:31.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.789 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-08-22 15:21:31.789 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2025-08-22 15:21:31.789 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2025-08-22 15:21:31.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2025-08-22 15:21:31.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2025-08-22 15:21:31.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2025-08-22 15:21:31.793 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.793 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.794 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2025-08-22 15:21:31.794 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in static account
+2025-08-22 15:21:31.795 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2025-08-22 15:21:31.795 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2025-08-22 15:21:31.796 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for static, its period 5s 
+2025-08-22 15:21:31.799 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=remotes, path=C:/Users/ibrag/My documents/Spiralytics/.git/logs/refs/remotes, type=PREDICT}
+Account{name=refs, path=C:/Users/ibrag/My documents/Spiralytics/.git/logs/refs, type=PREDICT}
+Account{name=.git, path=C:/Users/ibrag/My documents/Spiralytics/.git, type=PREDICT}
+Account{name=remotes, path=C:/Users/ibrag/My documents/Spiralytics/.git/refs/remotes, type=PREDICT}
+Account{name=refs, path=C:/Users/ibrag/My documents/Spiralytics/.git/refs, type=PREDICT}
+Account{name=Spiralytics, path=C:/Users/ibrag/My documents/Spiralytics, type=PREDICT}
+Account{name=objects, path=C:/Users/ibrag/My documents/Spiralytics/.git/objects, type=PREDICT}
+Account{name=logs, path=C:/Users/ibrag/My documents/Spiralytics/.git/logs, type=PREDICT}
+Account{name=static, path=C:/Users/ibrag/My documents/Spiralytics/static, type=PREDICT}
+2025-08-22 15:21:31.799 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2025-08-22 15:21:31.799 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\ibrag/.rmv/config) watcher launch successful
+2025-08-22 15:21:47.784 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 15:21:49.126 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 15:22:05.434 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 15:47:09.342 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 15:47:11.829 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 15:47:21.368 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 15:48:07.287 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 15:48:46.233 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 15:48:55.727 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 15:49:07.117 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 15:49:21.396 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:01:37.254 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:01:40.324 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:04:01.352 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:04:43.190 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:05:13.072 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:06:39.444 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:14:25.446 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:14:26.417 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:16:11.057 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:16:15.238 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:16:36.111 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:16:48.721 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:30:12.146 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 16:30:14.186 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:31:22.666 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 16:31:26.856 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:36:23.602 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 16:36:30.939 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:36:57.924 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 16:37:03.884 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:37:19.673 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 16:37:21.836 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:37:43.745 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:39:17.405 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:41:56.519 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:42:05.673 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:42:24.554 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:42:26.396 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 16:42:27.611 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:42:29.452 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:42:34.010 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 16:46:15.673 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 16:46:23.594 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 17:28:49.144 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 17:29:13.230 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 17:29:23.733 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/static/css)
+2025-08-22 17:29:24.457 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 17:29:29.892 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 18:04:21.095 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 18:04:28.295 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 18:09:25.664 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 18:09:28.043 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 18:10:17.274 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 18:10:44.595 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 18:10:47.625 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 18:10:48.543 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 18:10:49.355 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 18:11:21.165 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 19:01:03.662 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 19:01:04.814 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 19:01:09.139 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 19:01:38.435 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 19:01:41.368 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics)
+2025-08-22 19:01:43.485 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 22:35:37.298 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 22:37:01.557 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 22:39:54.013 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 22:40:40.680 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 22:41:14.075 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 22:42:41.000 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)
+2025-08-22 23:36:12.867 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My documents/Spiralytics/script)

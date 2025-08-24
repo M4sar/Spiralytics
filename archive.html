@@ -5,7 +5,7 @@
     <link rel="icon" href="static/images/logo.png" />
     <link rel="stylesheet" href="static/css/style.css" />
     <link rel="stylesheet" href="static/fonts/fonts.css" />
-    <script src="script/script.js"></script>
+    <script src="script/script.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -16,7 +16,7 @@
       <!--Блок Spiralytics-->
       <div style="display: inline-block">
         <a class="head-anchor-left" href="main.html">
-          <div class="hov-head-block">
+          <div class="hov-head-block" id="hui">
             <div class="head-block">
               <img
                 class="head-img-main"
@@ -25,7 +25,7 @@
               />
             </div>
             <div class="head-block">
-              <p class="head-text-main">Spiralytics</p>
+              <p class="head-text-main" id="h1">Spiralytics</p>
             </div>
           </div>
         </a>
@@ -40,7 +40,7 @@
               />
             </div>
             <div class="head-block">
-              <p class="head-text">Charachters</p>
+              <p class="head-text" id="head1">Charachters</p>
             </div>
           </div>
         </a>
@@ -55,7 +55,7 @@
               />
             </div>
             <div class="head-block">
-              <p class="head-text">Inventory</p>
+              <p class="head-text" id="head2">Inventory</p>
             </div>
           </div>
         </a>
@@ -70,7 +70,7 @@
               />
             </div>
             <div class="head-block">
-              <p class="head-text">Archive</p>
+              <p class="head-text" id="head3">Archive</p>
             </div>
           </div>
         </a>
@@ -85,41 +85,51 @@
               />
             </div>
             <div class="head-block">
-              <p class="head-text">Calculator</p>
+              <p class="head-text" id="head4">Calculator</p>
             </div>
           </div>
         </a>
       </div>
       <!--head right block-->
-      <!--Блок theme-->
-      <a class="head-anchor-right" href="light.html">
-        <div class="right-header-element">
-          <div class="head-block">
-            <img
-              class="head-img"
-              src="static/images/dark_theme.png"
-              alt="dark_theme"
-            />
+      <div style="display: flex; margin-right: 3px">
+        <!--Блок language-->
+        <a class="head-anchor-right">
+          <div class="right-header-element">
+            <div class="head-block">
+              <p class="head-lang-change-text">En</p>
+            </div>
+            <div
+              style="display: inline-block; height: 100%; vertical-align: top"
+            >
+              <img
+                class="head-lang-change-img"
+                src="static/images/arrow.png"
+                alt="arrowlang"
+              />
+            </div>
           </div>
-        </div>
-      </a>
-      <!--Блок language-->
-      <a class="head-anchor-right">
-        <div class="right-header-element">
-          <div class="head-block">
-            <p class="head-text head-lang-change-text">En</p>
+        </a>
+        <!--Блок theme-->
+        <a class="head-anchor-right" id="chanhgeTheme">
+          <div class="right-header-element">
+            <div class="head-block">
+              <img
+                id="imgToggleTheme"
+                class="head-img"
+                src="static/images/dark_theme.png"
+                style="cursor: pointer"
+                alt="dark_theme"
+              />
+              <!-- <video
+                style="height: 84%; padding: 8%; margin: 0"
+                src="static/images/Композиция-1.gif"
+              ></video> -->
+            </div>
           </div>
-          <div style="display: inline-block; height: 100%; vertical-align: top">
-            <img
-              class="head-lang-change-img"
-              src="static/images/arrow.png"
-              alt="arrowlang"
-            />
-          </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
-    <div class="site-background"></div>
+    <div class="site-background-dark" id="background"></div>
     <!--#e4e7df - light theme-->
 
     <div class="main" id="main">

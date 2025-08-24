@@ -24,10 +24,8 @@ chanhgeTheme.addEventListener("click", () => {
 //
 //
 // Анимация заголовков в header
-const headText = document.getElementsByClassName("head-text");
 const divHovHeadBlock = document.querySelectorAll(".hov-head-block");
 
-// Найти каждый блок div from header
 for (let textBlock of divHovHeadBlock) {
   textBlock.addEventListener("mouseover", (hov) => {
     const el = hov.target.getAttribute("class");
@@ -37,14 +35,9 @@ for (let textBlock of divHovHeadBlock) {
       const text = textBlock.querySelector(".hov-head-block .head-text-main");
 
       text.style.transform = "rotate(-0.6deg) translateY(-0.5px) scale(1.05)";
-      imgMain.style.transform = "rotate(-17deg) scale(0.94)";
+      imgMain.style.transform = " scale(0.97)";
 
       textBlock.addEventListener("mouseout", () => {
-        const imgMain = textBlock.querySelector(
-          ".hov-head-block .head-img-main"
-        );
-        const text = textBlock.querySelector(".hov-head-block .head-text-main");
-
         text.style.transform = "rotate(0deg) translateY(0px) scale(1)";
         imgMain.style.transform = "rotate(0deg)";
       });
@@ -58,14 +51,9 @@ for (let textBlock of divHovHeadBlock) {
       img.style.transform = "scale(1.1)";
 
       textBlock.addEventListener("mouseout", () => {
-        const text = textBlock.querySelector(".hov-head-block .head-text");
-        const img = textBlock.querySelector(".hov-head-block .head-img");
-
         img.style.transform = "scale(1)";
         text.style.transform = "rotate(0deg) translateY(0px) scale(1)";
       });
     }
   });
 }
-
-console.log($("a.head-anchor-left"));

@@ -25,10 +25,10 @@ chanhgeTheme.addEventListener("click", () => {
 //
 // Анимация заголовков в header
 const headText = document.getElementsByClassName("head-text");
-const div = document.querySelectorAll(".hov-head-block");
+const divHovHeadBlock = document.querySelectorAll(".hov-head-block");
 
 // Найти каждый блок div from header
-for (let textBlock of div) {
+for (let textBlock of divHovHeadBlock) {
   textBlock.addEventListener("mouseover", (hov) => {
     const el = hov.target.getAttribute("class");
 
@@ -37,7 +37,7 @@ for (let textBlock of div) {
       const text = textBlock.querySelector(".hov-head-block .head-text-main");
 
       text.style.transform = "rotate(-0.6deg) translateY(-0.5px) scale(1.05)";
-      imgMain.style.transform = "rotate(-360deg)";
+      imgMain.style.transform = "rotate(-17deg) scale(0.94)";
 
       textBlock.addEventListener("mouseout", () => {
         const imgMain = textBlock.querySelector(
@@ -70,3 +70,5 @@ for (let textBlock of div) {
     }
   });
 }
+
+console.log($("a.head-anchor-left"));

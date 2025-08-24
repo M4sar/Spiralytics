@@ -51,15 +51,12 @@ for (let textBlock of divHovHeadBlock) {
     }
 
     if (el === "head-text" || el === "head-img") {
-      textBlock.addEventListener("mouseover", () => {
-        const text = textBlock.querySelector(".hov-head-block .head-text");
-        // const imgMain = textBlock.querySelector(".hov-head-block .head-img-main");
-        const img = textBlock.querySelector(".hov-head-block .head-img");
+      const text = textBlock.querySelector(".hov-head-block .head-text");
+      const img = textBlock.querySelector(".hov-head-block .head-img");
 
-        img.style.transform = "scale(1.1)";
-        text.style.transform = "rotate(-1deg) translateY(-0.5px) ";
-      });
-      // При движении по блоку div изменять стиль текста внутри
+      text.style.transform = "rotate(-0.6deg) translateY(-0.5px) scale(1.05)";
+      img.style.transform = "scale(1.1)";
+
       textBlock.addEventListener("mouseout", () => {
         const text = textBlock.querySelector(".hov-head-block .head-text");
         const img = textBlock.querySelector(".hov-head-block .head-img");

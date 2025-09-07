@@ -23,7 +23,9 @@ const pool = new Pool({
 // 🔹 Пример маршрута (данные из таблицы characters)
 app.get("/characters", async (req, res) => {
   try {
-    const result = await pool.query("SELECT * FROM characters");
+    const result = await pool.query(
+      "SELECT * FROM characters ORDER BY char_id ASC"
+    );
     res.json(result.rows);
   } catch (err) {
     console.error(err.message);

@@ -57,3 +57,22 @@ for (let textBlock of divHovHeadBlock) {
     }
   });
 }
+
+// Добавление карточек персонажей из базы данных
+fetch("http://localhost:3000/characters")
+  .then((res) => res.json())
+  .then((data) => {
+    const container = document.querySelector("div.grid-container-characters"); // получаем контейнер
+    data.forEach((character) => {
+      const character_card_archive = document.createElement("div"); // создаем элемент
+      character_card_archive.className = "character_card_archive"; // добавляем класс
+      character_card_archive.setAttribute(
+        // добавляем стиль
+        "style",
+        `background-image: url(${character.namecard_background})`
+      );
+
+      container.appendChild(character_card_archive);
+    });
+  })
+  .catch((err) => console.error(err));

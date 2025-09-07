@@ -272,10 +272,17 @@
   background-color: #1e202f;
   border-radius: 20px;
 }
-.grid-container {
+.grid-container-characters {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1.5%;
   row-gap: 2vh;
   padding: 2%;
+}
+.character_card_archive {
+  overflow: hidden;
+  height: 20vh;
+  border-radius: 10px;
+  position: relative;
+  background-size: 100% 100%;
 }

@@ -202,7 +202,7 @@
           "
         >
           <img
-            src="static/images/Namecard_Background_Amber.png"
+            src="static/images/Namecard_Background/Namecard_Background_Amber.png"
             style="
               position: absolute;
               inset: 0;
@@ -239,6 +239,20 @@
       >
         Last updates
       </div>
+      <ul id="user-list"></ul>
     </div>
+    <script>
+      fetch("http://localhost:3000/characters")
+        .then((res) => res.json())
+        .then((data) => {
+          const list = document.getElementById("user-list");
+          data.forEach((character) => {
+            const li = document.createElement("li");
+            li.textContent = `${character.char_id}: ${character.name} (${character.element})`;
+            list.appendChild(li);
+          });
+        })
+        .catch((err) => console.error(err));
+    </script>
   </body>
 </html>

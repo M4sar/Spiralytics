@@ -64,15 +64,34 @@ fetch("http://localhost:3000/characters")
   .then((data) => {
     const container = document.querySelector("div.grid-container-characters"); // получаем контейнер
     data.forEach((character) => {
-      const character_card_archive = document.createElement("div"); // создаем элемент
-      character_card_archive.className = "character_card_archive"; // добавляем класс
-      character_card_archive.setAttribute(
-        // добавляем стиль
-        "style",
-        `background-image: url(${character.namecard_background})`
-      );
+      const character_card_archive = document.createElement("div"); // создаем карточку персонажа
+      character_card_archive.classList.add("character_card_archive");
+      character_card_archive.style.backgroundImage =
+        "url(" + character.namecard_background + ")"; // добавляем background
 
-      container.appendChild(character_card_archive);
+      container.appendChild(character_card_archive); // вставить карточку персонажа с background
+
+      const character_card_inside = document.createElement("div"); // создаем контейнер содержимого карточки
+      character_card_inside.setAttribute("style", "display: grid"); // добавляем стиль display: grid
+
+      character_card_archive.appendChild(character_card_inside); // вставить контейнер содержимого карточки
+
+      const character_icon = document.createElement("img");
+      character_icon.classList.add("character-icon-card-archive");
+      character_icon.src = character.characters_icon; // добавляем иконку персонажа
+
+      character_card_inside.appendChild(character_icon); // вставить иконку персонажа в контейнер
     });
   })
   .catch((err) => console.error(err));
+
+// Обратный порядок карточек персонажей
+const grid = document.querySelector(".grid-container-characters");
+const observer = new MutationObserver(() => {
+  const items = Array.from(grid.children);
+  if (items.length > 0) {
+    items.reverse().forEach((item) => grid.appendChild(item));
+    observer.disconnect(); // отключаем observer, больше не нужен
+  }
+});
+observer.observe(grid, { childList: true });

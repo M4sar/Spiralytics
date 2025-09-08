@@ -13,9 +13,9 @@ app.use(
 
 // 🔌 Подключение к PostgreSQL
 const pool = new Pool({
-  user: "postgres", // твой логин PostgreSQL
+  user: "M4sar", // твой логин PostgreSQL
   host: "localhost", // или IP сервера
-  database: "postgres", // название базы
+  database: "Archive", // название базы
   password: "MAXim3366", // пароль
   port: 5432, // стандартный порт PostgreSQL
 });

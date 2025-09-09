@@ -66,9 +66,22 @@ fetch("http://localhost:3000/characters")
     data.forEach((character) => {
       const character_card_archive = document.createElement("div"); // создаем карточку персонажа
       character_card_archive.classList.add("character_card_archive");
-      character_card_archive.style.backgroundImage =
-        "url(" + character.namecard_background + ")"; // добавляем background
-
+      if (
+        character.name === "Traveler" ||
+        character.name === "Nefer" ||
+        character.name === "Lauma" ||
+        character.name === "Flins" ||
+        character.name === "Aina"
+      ) {
+        character_card_archive.style.backgroundImage =
+          "linear-gradient(to bottom right,#695453,#e6ac5480)"; // добавляем background для путешественника
+      } else if (character.name === "Kachina") {
+        character_card_archive.style.backgroundImage =
+          "url('static/images/Namecard_Background_Kachina.png')"; // добавляем background для Kachina
+      } else {
+        character_card_archive.style.backgroundImage =
+          "url(" + character.namecard_background + ")"; // добавляем background для остальных персонажей
+      }
       container.appendChild(character_card_archive); // вставить карточку персонажа с background
 
       const character_card_inside = document.createElement("div"); // создаем контейнер содержимого карточки
@@ -78,7 +91,15 @@ fetch("http://localhost:3000/characters")
 
       const character_icon = document.createElement("img");
       character_icon.classList.add("character-icon-card-archive");
-      character_icon.src = character.characters_icon; // добавляем иконку персонажа
+
+      if (character.name === "Aloy") {
+        character_icon.src = "static/images/Aloy_icon.png"; // добавляем иконку персонажа Aloy
+      } else if (character.name === "Nefer") {
+        character_icon.src =
+          "https://homdgcat.wiki/homdgcat-res/Avatar/UI_AvatarIcon_Nefer.png"; // добавляем иконку персонажа Nefer
+      } else {
+        character_icon.src = character.characters_icon; // добавляем иконку для остальных персонажей
+      }
 
       character_card_inside.appendChild(character_icon); // вставить иконку персонажа в контейнер
     });

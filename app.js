@@ -7,7 +7,7 @@ const app = express();
 // ✅ Разрешаем запросы с фронтенда (127.0.0.1:5500)
 app.use(
   cors({
-    origin: "http://127.0.0.1:5500",
+    origin: "http://localhost:5173",
   })
 );
 

@@ -124,9 +124,11 @@ fetch("http://localhost:3000/characters")
     const charIconTop = document.querySelector(
       ".character-icon-card-archive"
     ).offsetTop; // Получить отступ сверху
-    console.log(charIconTop);
     document.querySelectorAll(".character-icon-card-archive").style.left =
       charIconTop + "px"; // Применить отступ сверху к стилю left
+    const char_name = document.createElement("p");
+    char_name.textContent = character.name; // добавляем имя персонажа
+    console.log(character.characters_icon);
   })
   .catch((err) => console.error(err));
 

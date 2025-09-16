@@ -80,8 +80,7 @@ fetch("http://localhost:3000/characters")
       // условие для добавления background в карточку персонажа
       if (
         character.name === "Traveler" ||
-        character.name === "Nefer" ||
-        character.name === "Flins"
+        character.name === "Nefer"
       ) {
         character_card_archive.style.backgroundImage =
           "linear-gradient(to bottom right,#695453,#e6ac5480)"; // добавляем background для путешественника + нововышедшие 5*

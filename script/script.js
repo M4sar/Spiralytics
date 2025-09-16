@@ -78,11 +78,7 @@ fetch("http://localhost:3000/characters")
       const background = document.createElement("img"); // создаем элемент для background
       background.classList.add("character-background-card-archive"); // добавляем класс для background
       // условие для добавления background в карточку персонажа
-      if (
-        character.name === "Traveler" ||
-        character.name === "Nefer" ||
-        character.name === "Flins"
-      ) {
+      if (character.name === "Traveler" || character.name === "Nefer") {
         character_card_archive.style.backgroundImage =
           "linear-gradient(to bottom right,#695453,#e6ac5480)"; // добавляем background для путешественника + нововышедшие 5*
         // } else if (character.name === "Aina") {

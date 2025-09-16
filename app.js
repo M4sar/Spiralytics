@@ -20,6 +20,18 @@ const pool = new Pool({
   port: 5432, // стандартный порт PostgreSQL
 });
 
+app.get("/weapons", async (req, res) => {
+  try {
+    const result = await pool.query(
+      "SELECT * FROM weapons ORDER BY weap_id ASC"
+    );
+    res.json(result.rows);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Ошибка сервера");
+  }
+});
+
 // 🔹 Пример маршрута (данные из таблицы characters)
 app.get("/characters", async (req, res) => {
   try {

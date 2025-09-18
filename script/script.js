@@ -87,12 +87,6 @@ fetch("http://localhost:3000/characters")
         // } else if (character.name === "Aina") {
         //   character_card_archive.style.backgroundImage =
         //     "linear-gradient(to bottom right, #5d5794, #a576c6)"; // добавляем background для нововышедших 4*
-      } else if (character.name === "Kachina") {
-        background.setAttribute(
-          "src",
-          "static/images/Namecard_Background_Kachina.png"
-        ); // добавляем background для Kachina
-        character_card_archive.appendChild(background);
       } else {
         background.setAttribute("src", character.namecard_background); // добавляем background для остальных персонажей
         character_card_archive.appendChild(background);
@@ -109,9 +103,7 @@ fetch("http://localhost:3000/characters")
       character_icon.classList.add("character-icon-card-archive");
       character_icon.setAttribute("id", character.char_id); // добавляем id персонажа
 
-      if (character.name === "Aloy") {
-        character_icon.src = "static/images/Aloy_icon.png"; // добавляем иконку персонажа Aloy
-      } else if (character.name === "Nefer") {
+      if (character.name === "Nefer") {
         character_icon.src =
           "https://homdgcat.wiki/homdgcat-res/Avatar/UI_AvatarIcon_Nefer.png"; // добавляем иконку персонажа Nefer
       } else {

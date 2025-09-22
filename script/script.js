@@ -78,13 +78,12 @@ fetch("http://localhost:3000/characters")
       const background = document.createElement("img"); // создаем элемент для background
       background.classList.add("character-background-card-archive"); // добавляем класс для background
       // условие для добавления background в карточку персонажа
-      if (
-        character.name === "Traveler" ||
-        character.name === "Nefer" ||
-        character.name === "Flins"
-      ) {
-        character_card_archive.style.backgroundImage =
-          "linear-gradient(to bottom right,#695453,#e6ac5480)"; // добавляем background для путешественника + нововышедшие 5*
+      if (character.name === "Traveler" || character.name === "Nefer") {
+        background.setAttribute(
+          "src",
+          "static/images/Background/background_0.png"
+        ); // добавляем background для путешественника + нововышедшие 5*
+        character_card_archive.appendChild(background);
         // } else if (character.name === "Aina") {
         //   character_card_archive.style.backgroundImage =
         //     "linear-gradient(to bottom right, #5d5794, #a576c6)"; // добавляем background для нововышедших 4*

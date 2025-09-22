@@ -1,7 +1,6 @@
 @import url(reset.css);
 .header {
-  height: 7vh;
-  min-height: 40px;
+  height: min(max(40px, 3.6vw), 65px);
   display: flex;
   justify-content: space-between;
   background: -webkit-linear-gradient(45deg, #171433, #23052b);
@@ -18,7 +17,7 @@
   will-change: transform;
   transform-origin: center center;
   color: aliceblue;
-  font-size: max(3.5vh, 20px);
+  font-size: clamp(23px, calc(3.6vw - 20px), 35px);
   height: 100%;
   display: flex;
   align-items: center;
@@ -36,7 +35,7 @@
   will-change: transform;
   transform-origin: center center;
   color: aliceblue;
-  font-size: max(2.9vh, 17px);
+  font-size: clamp(20px, calc(3.6vw - 20px), 30px);
   height: 100%;
   display: flex;
   align-items: center;
@@ -54,8 +53,8 @@
 }
 .header__link--left_block {
   cursor: pointer;
-  margin: 2px 0 2px 0;
-  padding: 0 8px 0 3px;
+  margin: 3px 0 3px 0;
+  padding: 0 0.4vw 0 3px;
   position: relative;
   color: #333;
   text-decoration: none;
@@ -65,7 +64,7 @@
   overflow: hidden;
   z-index: 1;
   transition: color 0.5s ease;
-  height: calc(max(7vh, 40px) - 4px);
+  height: calc(100% - 6px);
 }
 
 .header__link--left_block::before {
@@ -91,7 +90,7 @@
   opacity: 1;
 }
 .header__link--left_block-min {
-  height: calc(max(7vh, 40px) - 10px);
+  height: calc(100% - 10px);
   margin: 5px 0px 5px 0px;
   padding-left: 0px;
   border-radius: 12px;
@@ -158,18 +157,17 @@
   border-radius: 20px;
 }
 .right-header-element {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0.25vw 0 0.25vw 0;
   position: relative;
   color: #333;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   background: #f8f9fa00;
   border-radius: 25px;
   overflow: hidden;
   z-index: 1;
   transition: color 0.5s ease;
-  height: calc(max(7vh, 40px) - 10px);
+  height: calc(100% - 0.5vw);
 }
 
 .right-header-element::before {
@@ -195,27 +193,20 @@
   opacity: 1;
 }
 .head-lang-change-img {
-  height: 40%;
-  aspect-ratio: 1/1;
-  padding-top: calc((max(7vh, 40px) - 10px) * 0.3);
-  padding-bottom: calc((max(7vh, 40px) - 10px) * 0.3);
-  margin-left: -50%;
+  height: 37.5%;
+  margin: 83% 0 83%;
 }
 .head-lang-change-text {
   color: aliceblue;
-  font-size: max(2.9vh, 17px);
+  font-size: clamp(20px, 2.2vw, 32px);
   height: 100%;
-  display: flex;
-  align-items: center;
-  margin: 0;
+  padding: 0 0.4vw 0 0.625vw;
+  line-height: min(max(calc(40px - 0.5vw), 3.1vw), calc(65px - 0.5vw));
   transition: transform 0.3s ease;
-  justify-content: center;
-  align-items: center;
 }
 .header__link--left {
   display: inline-block;
-  height: 7vh;
-  min-height: 40px;
+  height: 100%;
   cursor: default;
 }
 
@@ -304,4 +295,12 @@ img {
 .character-background-card-archive {
   height: 100%;
   opacity: 68%;
+}
+@media (max-width: 768px) {
+  .header__link--left_block .head-block:nth-last-child(1) {
+    display: none;
+  }
+  .head-img {
+    padding: 16% 1.75vw 16% 1.75vw;
+  }
 }

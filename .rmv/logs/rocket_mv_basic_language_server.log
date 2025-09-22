@@ -2126,3 +2126,10 @@ Account{name=..., path=..., type=PREDICT}
 2025-09-22 16:51:19.644 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\ibrag/.rmv/config) watcher launch successful
 2025-09-22 16:52:39.252 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics/static/css)
 2025-09-22 16:55:31.377 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics)
+2025-09-22 17:01:05.940 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics/.git)
+2025-09-22 17:01:17.667 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics)
+2025-09-22 17:01:55.203 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics/static/css)
+2025-09-22 17:03:05.478 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics/script)
+2025-09-22 17:03:07.954 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics/static/css)
+2025-09-22 17:03:13.483 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics)
+2025-09-22 17:10:35.807 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(C:/Users/ibrag/My_documents/Spiralytics/static/css)

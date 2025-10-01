@@ -1,4 +1,6 @@
-@import url(reset.css);
+@import url(base/reset.css);
+@import url(base/colors.css);
+
 .header {
   height: min(max(40px, 3.6vw), 65px);
   display: flex;
@@ -16,7 +18,7 @@
   display: inline-block;
   will-change: transform;
   transform-origin: center center;
-  color: aliceblue;
+  color: var(--color);
   font-size: clamp(23px, calc(3.6vw - 20px), 35px);
   height: 100%;
   display: flex;
@@ -271,8 +273,10 @@
   padding: 2%;
 }
 .character_card_archive {
+  position: relative;
   overflow: hidden;
-  height: 20vh;
+  height: calc(18vw * 0.7);
+  width: 18vw;
   border-radius: 10px;
   position: relative;
   background-size: 100% 100%;
@@ -280,9 +284,7 @@
 .character-icon-card-archive {
   position: absolute;
   width: calc(20vh * 0.85);
-  min-height: calc(567px * 0.2 * 0.85);
-  top: calc(20vh * 0.075);
-  left: calc(20vh * 0.075);
+  inset: 0 0 0 0;
 }
 /* без перетаскивания изображений */
 img {
@@ -302,5 +304,13 @@ img {
   }
   .head-img {
     padding: 16% 1.75vw 16% 1.75vw;
+  }
+}
+@media (max-width: 1440px) {
+  .grid-container-characters {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3%;
+    row-gap: 2vh;
+    padding: 2%;
   }
 }

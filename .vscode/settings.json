@@ -11,6 +11,7 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/*.rmv": true,
     "**/.rmv/catalog/**": true,
     "*/_*": false
   },

@@ -79,22 +79,10 @@ fetch("http://localhost:3000/characters")
       background.classList.add("character-background-card-archive"); // добавляем класс для background
       // условие для добавления background в карточку персонажа
       if (character.name === "Traveler" || character.name === "Nefer") {
-        background.setAttribute(
-          "src",
-          "static/images/Background/background_0.png"
-        ); // добавляем background для путешественника + нововышедшие 5*
-        character_card_archive.appendChild(background);
-        // } else if (character.name === "Aina") {
-        //   character_card_archive.style.backgroundImage =
-        //     "linear-gradient(to bottom right, #5d5794, #a576c6)"; // добавляем background для нововышедших 4*
-      } else if (character.name === "Kachina") {
-        background.setAttribute(
-          "src",
-          "static/images/Namecard_Background_Kachina.png"
-        ); // добавляем background для Kachina
+        background.src = "static/images/Namecard_background/background_0.png"; // добавляем background для путешественника + нововышедшие 5*
         character_card_archive.appendChild(background);
       } else {
-        background.setAttribute("src", character.namecard_background); // добавляем background для остальных персонажей
+        background.src = `static/images/${character.namecard_background}`; // добавляем background для остальных персонажей
         character_card_archive.appendChild(background);
       }
 
@@ -107,16 +95,8 @@ fetch("http://localhost:3000/characters")
 
       const character_icon = document.createElement("img");
       character_icon.classList.add("character-icon-card-archive");
-      character_icon.setAttribute("id", character.char_id); // добавляем id персонажа
 
-      if (character.name === "Aloy") {
-        character_icon.src = "static/images/Aloy_icon.png"; // добавляем иконку персонажа Aloy
-      } else if (character.name === "Nefer") {
-        character_icon.src =
-          "https://homdgcat.wiki/homdgcat-res/Avatar/UI_AvatarIcon_Nefer.png"; // добавляем иконку персонажа Nefer
-      } else {
-        character_icon.src = character.characters_icon; // добавляем иконку для остальных персонажей
-      }
+      character_icon.src = `static/images/${character.characters_icon}`; // добавляем иконку для остальных персонажей
       character_card_inside.appendChild(character_icon); // вставить иконку персонажа в контейнер
     });
 

@@ -1,0 +1,40 @@
+:root {
+  --header-height: 7vh;
+}
+.Header__nav-img--main {
+  height: calc(0.8 * var(--header-height));
+  padding: calc(0.1 * var(--header-height));
+}
+.Header__nav-text--main {
+  font-size: 30px;
+}
+.Header__nav-img {
+  height: 68%;
+}
+.Header__nav-text {
+  font-size: 25px;
+}
+
+header {
+  height: var(--header-height);
+  background: linear-gradient(45deg, #171433, #23052b);
+}
+nav {
+  height: var(--header-height);
+}
+li {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+}
+ul {
+  height: var(--header-height);
+  width: 100%;
+  display: flex;
+}
+li > * {
+  display: inline-block;
+}
+p {
+  color: aliceblue;
+}

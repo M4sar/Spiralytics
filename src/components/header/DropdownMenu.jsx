@@ -6,7 +6,7 @@ export default function DropdownMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(["En"]);
   const [unselectedOption, unsetSelectedOption] = useState([
-    "Ru",
+    "Russian",
     "日本語",
     "中文",
   ]);
@@ -34,7 +34,7 @@ export default function DropdownMenu() {
               className="dropdown-item"
               onClick={() => handleSelect(unselectedOption, selectedOption)}
             >
-              {option}
+              <p className="dropmenu--list">{option}</p>
             </li>
           ))}
         </ul>

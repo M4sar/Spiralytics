@@ -1,25 +1,25 @@
 //
 //
 // Смена темы
-const chanhgeTheme = document.getElementById("chanhgeTheme");
-const background = document.getElementById("background");
-const imgToggleTheme = document.getElementById("imgToggleTheme");
-// При клике - заменить класс для background & сменить alt
-chanhgeTheme.addEventListener("click", () => {
-  if (imgToggleTheme.getAttribute("alt") === "dark_theme") {
-    background.classList.toggle("site-background-light");
-    background.classList.toggle("site-background-dark");
-    imgToggleTheme.setAttribute("src", "static/images/light_theme.png");
-    imgToggleTheme.setAttribute("alt", "light_theme");
-    console.log("hello");
-  } else {
-    imgToggleTheme.setAttribute("src", "static/images/dark_theme.png");
-    imgToggleTheme.setAttribute("alt", "dark_theme");
-    background.classList.toggle("site-background-light");
-    background.classList.toggle("site-background-dark");
-    console.log("bye");
-  }
-});
+// const chanhgeTheme = document.getElementById("chanhgeTheme");
+// const background = document.getElementById("background");
+// const imgToggleTheme = document.getElementById("imgToggleTheme");
+// // При клике - заменить класс для background & сменить alt
+// chanhgeTheme.addEventListener("click", () => {
+//   if (imgToggleTheme.getAttribute("alt") === "dark_theme") {
+//     background.classList.toggle("site-background-light");
+//     background.classList.toggle("site-background-dark");
+//     imgToggleTheme.setAttribute("src", "static/images/light_theme.png");
+//     imgToggleTheme.setAttribute("alt", "light_theme");
+//     console.log("hello");
+//   } else {
+//     imgToggleTheme.setAttribute("src", "static/images/dark_theme.png");
+//     imgToggleTheme.setAttribute("alt", "dark_theme");
+//     background.classList.toggle("site-background-light");
+//     background.classList.toggle("site-background-dark");
+//     console.log("bye");
+//   }
+// });
 
 //
 //

@@ -1,5 +1,4 @@
 import "./Header.css";
-import { useState } from "react";
 
 export function NavList({
   headerImg,

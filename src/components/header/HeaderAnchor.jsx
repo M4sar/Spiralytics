@@ -4,13 +4,14 @@ import "./Header.css";
 
 export function HeaderBlock() {
   return (
-    <ul>
+    <ul className="header__nav-list">
       {headerContent.map((item, i) => (
         <NavList
           key={i}
           {...item}
-          imgClass={i === 0 ? "Header__nav-img--main" : "Header__nav-img"}
-          textClass={i === 0 ? "Header__nav-text--main" : "Header__nav-text"}
+          imgClass={i === 0 ? "header__nav-img--main" : "header__nav-img"}
+          firstAnchor={i === 0 ? "calc(100% - 6px)" : ""}
+          textClass={i === 0 ? "header__nav-text--main" : "header__nav-text"}
         />
       ))}
     </ul>

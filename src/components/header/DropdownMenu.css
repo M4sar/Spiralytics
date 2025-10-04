@@ -95,3 +95,23 @@
   color: rgb(208, 208, 208);
   cursor: pointer;
 }
+
+/* DropdownMenu.css */
+
+.dropdown-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150%;
+  padding: 8px 12px;
+}
+
+.dropdown-check-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.dropdown-item--selected {
+  background-color: #041dff33; /* Подсветка выбранного элемента */
+  font-weight: bold;
+}

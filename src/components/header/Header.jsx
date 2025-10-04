@@ -5,10 +5,10 @@ import DropdownMenu from "./DropdownMenu";
 export function Header() {
   return (
     <header className="header-main">
-      <nav className="header__nav">
+      <nav>
         <HeaderBlock />
       </nav>
-      <nav>
+      <nav className="header_nav_right">
         <DropdownMenu />
       </nav>
     </header>

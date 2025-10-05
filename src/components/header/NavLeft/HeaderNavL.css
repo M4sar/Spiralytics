@@ -2,6 +2,8 @@
   --header-height: min(max(60px, 6.5vh), 70px);
 }
 
+/* === header + hide by scroll === */
+
 .header-main {
   position: fixed;
   width: 100%;
@@ -21,6 +23,8 @@
 .header-wrapper {
   height: var(--header-height); /* место под fixed-header */
 }
+
+/* === header ul &  li === */
 
 .header__nav-list {
   height: var(--header-height);

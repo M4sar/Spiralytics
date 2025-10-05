@@ -76,10 +76,10 @@ export function DropdownMenu() {
   // Рендер компонента
   return (
     // Контейнер меню с ref для отслеживания кликов
-    <div className="dropdown" ref={dropdownRef}>
+    <>
       {/* Кнопка для открытия/закрытия меню */}
       <button
-        className="dropdown-toggle"
+        className="header__button--change-lang"
         onClick={toggleDropdown}
         ref={buttonRef}
         aria-expanded={isOpen} // ARIA атрибут для доступности
@@ -98,33 +98,35 @@ export function DropdownMenu() {
         />
       </button>
       {/* Условный рендеринг выпадающего меню */}
-      <ul className={`dropdown-menu ${isOpen ? "open" : ""}`}>
+      <ul
+        ref={dropdownRef}
+        className={`header__lang-menu ${isOpen ? "open" : ""}`}
+      >
         {/* Маппим массив всех языков в элементы списка */}
         {LANGUAGE_OPTIONS.map((option) => (
           <li
             key={option} // Уникальный ключ на основе значения языка
-            className={`dropdown-item ${
-              isOptionSelected(option) ? "dropdown-item--selected" : ""
+            className={`header__lang-menu-item ${
+              isOptionSelected(option) ? "header__lang-menu-item--selected" : ""
             }`} // Добавляем класс для выбранного элемента
             onClick={() => handleSelect(option)} // Обработчик выбора языка
           >
             {/* Контейнер для содержимого пункта меню */}
-            <div className="dropdown-item-content">
-              {/* Отображаем название языка */}
-              <p className="dropmenu--list">{option}</p>
 
-              {/* Условно рендерим галочку для выбранного языка */}
-              {isOptionSelected(option) && (
-                <img
-                  src="/images/check.png"
-                  alt="Selected"
-                  className="dropdown-check-icon"
-                />
-              )}
-            </div>
+            {/* Отображаем название языка */}
+            <p className="header__lang-menu-paragraph">{option}</p>
+
+            {/* Условно рендерим галочку для выбранного языка */}
+            {isOptionSelected(option) && (
+              <img
+                src="/images/check.png"
+                alt="Selected"
+                className="header__lang-menu-icon--selected"
+              />
+            )}
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }

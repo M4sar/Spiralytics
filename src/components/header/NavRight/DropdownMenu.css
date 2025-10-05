@@ -1,7 +1,4 @@
 /* Базовые стили для выпадающего меню */
-:root {
-  --header-height: min(max(60px, 6.5vh), 70px);
-}
 .dropdown {
   position: relative;
   display: flex;
@@ -33,7 +30,7 @@
   background: linear-gradient(1deg, #61616160, #3b3b3b60);
   z-index: -1;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease-in-out;
 }
 .dropdown-toggle:hover {
   color: white;
@@ -47,8 +44,16 @@
   position: absolute;
   margin-top: 0.35vw;
   top: 100%;
-  width: 175%;
+  width: 150px;
+  min-width: max-content; /* чтобы не сжималось меньше текста */
   right: 0;
+  border-radius: 7.5%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease;
   background: -webkit-linear-gradient(
     90deg,
     #1f1f1f,
@@ -61,10 +66,9 @@
     #010029,
     #030038
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 4px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  overflow-y: auto;
+}
+.dropdown-menu.open {
+  transform: scaleY(1);
 }
 
 .dropdown-item {
@@ -80,16 +84,21 @@
   border-bottom: none;
 }
 .header__nav__lang--img {
-  aspect-ratio: 1/1;
-  height: calc(0.4 * var(--header-height));
-  padding-right: 0.4vw;
+  height: calc(0.15 * var(--header-height));
+  padding-bottom: calc(0.15 * var(--header-height));
+  padding-top: calc(0.075 * var(--header-height));
+  margin-right: 0.4vw;
+  transition: transform 0.3s ease-in-out;
 }
 .header__nav__lang--text {
   padding: 0 0.35vw 0 0.625vw;
+  font-size: calc(0.35 * var(--header-height));
 }
 .dropmenu--list {
-  margin: 0 1vw 0 0.3vw;
-  padding: 0.2vw 0.3vw 0.2vw 0.3vw;
+  padding: 0.35vw 1vw 0.35vw 0.5vw;
+  padding: calc(0.085 * var(--header-height)) calc(0.4 * var(--header-height))
+    calc(0.085 * var(--header-height)) calc(0.2 * var(--header-height));
+  font-size: calc(0.32 * var(--header-height));
 }
 .dropmenu--list:hover {
   color: rgb(208, 208, 208);
@@ -102,16 +111,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 150%;
-  padding: 8px 12px;
+  height: 100%;
+  width: 100%;
+  margin-right: 15px;
 }
 
 .dropdown-check-icon {
-  width: 32px;
-  height: 32px;
+  height: 20px;
 }
 
 .dropdown-item--selected {
-  background-color: #041dff33; /* Подсветка выбранного элемента */
-  font-weight: bold;
+  background-color: #041dff25; /* Подсветка выбранного элемента */
 }

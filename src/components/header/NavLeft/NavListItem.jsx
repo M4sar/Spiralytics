@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./HeaderNavL.css";
 
 export function NavList({
   headerImg,
@@ -8,8 +8,12 @@ export function NavList({
   firstAnchor,
 }) {
   return (
-    <li className="header__nav-element">
-      <a href="" className="header__nav-anchor" style={{ height: firstAnchor }}>
+    <li className="header__nav-listItem">
+      <a
+        href=""
+        className="header__nav-listAnchor"
+        style={{ height: firstAnchor }}
+      >
         <img src={headerImg} className={imgClass} />
         <p className={textClass}>{headerText}</p>
       </a>

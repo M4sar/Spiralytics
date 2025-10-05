@@ -1,0 +1,108 @@
+:root {
+  --header-height: min(max(60px, 6.5vh), 70px);
+}
+
+.header-main {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: var(--header-height);
+  background: linear-gradient(45deg, #171433, #23052b);
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+  z-index: 1000;
+}
+.header-main.hidden {
+  transform: translateY(-100%);
+}
+.header-wrapper {
+  height: var(--header-height); /* место под fixed-header */
+}
+
+.header__nav-list {
+  height: var(--header-height);
+  width: 100%;
+  display: flex;
+}
+.header__nav-listItem {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  margin-left: calc(0.06 * var(--header-height));
+}
+
+/* === Img & text in list item === */
+
+.header__navLeft__img--main {
+  height: calc(0.785 * var(--header-height));
+  padding: 0 0.3vw 0 0.175vw;
+}
+.header__navLeft__text--main {
+  font-size: calc(0.53 * var(--header-height));
+  color: aliceblue;
+  padding-right: calc(0.15 * var(--header-height));
+}
+.header__navLeft__img {
+  height: calc(0.6 * var(--header-height));
+  padding: 0 0.25vw 0 0.25vw;
+}
+.header__navLeft__text {
+  font-size: calc(0.44 * var(--header-height));
+  color: aliceblue;
+  padding-right: calc(0.1 * var(--header-height));
+}
+
+/* === Anchor + hover in list item === */
+
+.header__nav-listAnchor {
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  background: #f8f9fa00;
+  border-radius: calc(0.15 * var(--header-height));
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.5s ease;
+  align-items: center;
+  height: calc(100% - 10px);
+}
+.header__nav-listAnchor::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #26265a, #4a3e65);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.header__nav-listAnchor:hover {
+  color: white;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+}
+.header__nav-listAnchor:hover::before {
+  opacity: 1;
+}
+
+/* === Animation(tranform) for item list when hovering over === */
+
+.header__nav-listAnchor img,
+.header__nav-listAnchor p {
+  will-change: transform;
+  transition: transform 0.5s ease;
+}
+.header__nav-listAnchor:hover .header__navLeft__img--main {
+  transform: scale(1.02);
+}
+.header__nav-listAnchor:hover .header__navLeft__img {
+  transform: scale(1.06);
+}
+.header__nav-listAnchor:hover .header__navLeft__text--main {
+  transform: rotate(-0.4deg) translateY(-0.5px) scale(1.01);
+}
+.header__nav-listAnchor:hover .header__navLeft__text {
+  transform: rotate(-0.4deg) translateY(-0.5px) scale(1.03);
+}

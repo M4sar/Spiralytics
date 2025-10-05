@@ -1,8 +1,8 @@
-import logo from "../../assets/images/logo.png";
-import characters from "../../assets/images/char.png";
-import inventory from "../../assets/images/inventory.png";
-import archive from "../../assets/images/archive.png";
-import calculator from "../../assets/images/calculator.png";
+const logo = "/images/logo.png";
+const characters = "images/char.png";
+const inventory = "images/inventory.png";
+const archive = "images/archive.png";
+const calculator = "images/calculator.png";
 
 export const headerContent = [
   { headerImg: logo, headerText: "Spiralytics" },

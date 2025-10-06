@@ -1,7 +1,3 @@
-:root {
-  --header-height: min(max(60px, 6.5vh), 70px);
-}
-
 /* === header + hide by scroll === */
 
 .header-main {

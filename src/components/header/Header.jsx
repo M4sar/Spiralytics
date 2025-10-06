@@ -3,7 +3,7 @@ import { DropdownMenu } from "./NavRight/DropdownMenu";
 import { useEffect, useState } from "react";
 import "./NavLeft/HeaderNavL.css";
 
-export function Header() {
+export default function Header() {
   const [isHidden, setIsHidden] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
 

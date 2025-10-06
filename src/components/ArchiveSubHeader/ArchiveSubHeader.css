@@ -1,0 +1,45 @@
+.archive-subHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e202f;
+  border-radius: 20px;
+}
+.archive-subHeader__link {
+  display: inline-block;
+  color: aliceblue;
+  font-size: max(3.5vh, 20px);
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  background: #f8f9fa00;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.5s ease;
+}
+.archive-subHeader__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #26265a60, #4a3e6560);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.archive-subHeader__link:hover {
+  color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.archive-subHeader__link:hover::before {
+  opacity: 1;
+}

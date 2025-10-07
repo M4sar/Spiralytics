@@ -29,8 +29,12 @@ export default function ArchivePage() {
       {renderedink()}
 =======
       <ArchiveSubHeader />
+<<<<<<< HEAD
 
 >>>>>>> e1c6675 (fetch characters in api/charactersService.js)
+=======
+      <ArchiveCharacters />
+>>>>>>> 8b3bdd8 (fix fetch)
       <div
         style={{
           display: "inline-block",

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useArchiveData } from "../../../hooks/charactersService.js";
 import "./ArchiveCharacters.css";
 
@@ -21,10 +22,18 @@ export default function ArchiveCharacters() {
     error,
   } = fetchCharacters();
 >>>>>>> e1c6675 (fetch characters in api/charactersService.js)
+=======
+import useFetch from "../../../hooks/useFetch.js";
+import useCharacters from "../../../hooks/charactersService.js";
 
-  if (loading) return <div>Загрузка персонажей...</div>;
-  if (error) return <div>Ошибка: {error.message}</div>;
+export default function ArchiveCharacters() {
+  const { fullCharacters, loading, error } = useCharacters();
+>>>>>>> 8b3bdd8 (fix fetch)
 
+  if (loading) return <p>Загрузка...</p>;
+  if (error) return <p>Ошибка: {error.message}</p>;
+
+<<<<<<< HEAD
 <<<<<<< HEAD
   return (
     <ul className="grid-container-characters">
@@ -126,4 +135,13 @@ export default function ArchiveCharacters() {
 =======
   return <></>;
 >>>>>>> e1c6675 (fetch characters in api/charactersService.js)
+=======
+  return (
+    <ul>
+      {fullCharacters.map((character) => (
+        <li key={character.char_id}>{character.name}</li>
+      ))}
+    </ul>
+  );
+>>>>>>> 8b3bdd8 (fix fetch)
 }

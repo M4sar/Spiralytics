@@ -1,21 +1,17 @@
-import fetchCharacters from "../../../api/charactersService.js";
+import useFetch from "../../../hooks/useFetch.js";
+import useCharacters from "../../../hooks/charactersService.js";
 
 export default function ArchiveCharacters() {
-  const {
-    fullCharacters,
-    charId,
-    charName,
-    charElement,
-    charWeaponType,
-    charRarity,
-    charIcon,
-    charNamecardBG,
-    loading,
-    error,
-  } = fetchCharacters();
+  const { fullCharacters, loading, error } = useCharacters();
 
-  if (loading) return <div>Загрузка персонажей...</div>;
-  if (error) return <div>Ошибка: {error.message}</div>;
+  if (loading) return <p>Загрузка...</p>;
+  if (error) return <p>Ошибка: {error.message}</p>;
 
-  return <></>;
+  return (
+    <ul>
+      {fullCharacters.map((character) => (
+        <li key={character.char_id}>{character.name}</li>
+      ))}
+    </ul>
+  );
 }

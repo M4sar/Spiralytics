@@ -5,7 +5,7 @@ export default function ArchivePage() {
   return (
     <>
       <ArchiveSubHeader />
-
+      <ArchiveCharacters />
       <div
         style={{
           display: "inline-block",

@@ -1,23 +1,28 @@
 import "./ArchiveSubHeader.css";
 
 export default function ArchiveSubHeader() {
+  const linkList = [
+    "Characters",
+    "Weapons",
+    "Artifacts",
+    "Enemies",
+    "Materials",
+  ];
+
   return (
     <div className="archive-subHeader">
-      <a
-        className="archive-subHeader__link "
-        style={{ borderRadius: "20px 0 0 20px" }}
-      >
-        Characters
-      </a>
-      <a className="archive-subHeader__link ">Weapons</a>
-      <a className="archive-subHeader__link ">Artifacts</a>
-      <a className="archive-subHeader__link ">Enemies</a>
-      <a
-        className="archive-subHeader__link "
-        style={{ borderRadius: "0 20px 20px 0" }}
-      >
-        Materials
-      </a>
+      {linkList.map((link, i) => {
+        let className = "archive-subHeader__link";
+
+        if (i === 0) className += " first-link";
+        else if (i === linkList.length - 1) className += " last-link";
+
+        return (
+          <a key={link} className={className} href="">
+            {link}
+          </a>
+        );
+      })}
     </div>
   );
 }

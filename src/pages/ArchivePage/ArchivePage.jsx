@@ -1,10 +1,12 @@
 import ArchiveSubHeader from "../../components/ArchiveSubHeader/ArchiveSubHeader";
+import ArchiveCharacters from "./ArchiveCharacters/ArchiveCharacters";
 
 export default function ArchivePage() {
   return (
     <>
       <ArchiveSubHeader />
-      {/* <div
+
+      <div
         style={{
           display: "inline-block",
           width: "100%",
@@ -14,7 +16,7 @@ export default function ArchivePage() {
         }}
       >
         Last updates
-      </div> */}
+      </div>
     </>
   );
 }

@@ -83,6 +83,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
   height: calc(0.85 * var(--header-height));
   border-bottom: 1px solid #f0f0f0;
   color: aliceblue;
@@ -103,7 +104,6 @@
     calc(0.085 * var(--header-height)) calc(0.2 * var(--header-height));
 }
 .header__lang-menu-paragraph:hover {
-  cursor: pointer;
   color: rgb(208, 208, 208);
 }
 

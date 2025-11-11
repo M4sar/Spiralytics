@@ -265,14 +265,14 @@
   background-color: #1e202f;
   border-radius: 20px;
 }
-.grid-container-characters {
+/* .grid-container-characters {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1.5%;
   row-gap: 2vh;
   padding: 2%;
-}
-.character_card_archive {
+} */
+/* .character_card_archive {
   position: relative;
   overflow: hidden;
   height: calc(18vw * 0.7);
@@ -280,12 +280,12 @@
   border-radius: 10px;
   position: relative;
   background-size: 100% 100%;
-}
-.character-icon-card-archive {
+} */
+/* .character-icon-card-archive {
   position: absolute;
   width: calc(20vh * 0.85);
   inset: 0 0 0 0;
-}
+} */
 /* без перетаскивания изображений */
 img {
   -webkit-user-drag: none; /* Safari */

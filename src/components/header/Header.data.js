@@ -1,4 +1,4 @@
-const logo = "/images/logo.png";
+const logo = "images/logo.png";
 const characters = "images/char.png";
 const inventory = "images/inventory.png";
 const archive = "images/archive.png";

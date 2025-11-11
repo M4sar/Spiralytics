@@ -46,7 +46,7 @@ export function DropdownMenu() {
     // Обработчик скролла вниз
     const handleScroll = () => {
       const current = window.scrollY;
-      if (current > lastScroll.current) {
+      if (current > lastScroll.current || current < lastScroll.current) {
         setIsOpen(false);
       }
       lastScroll.current = current;

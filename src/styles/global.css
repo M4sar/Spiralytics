@@ -34,6 +34,7 @@ svg {
   max-width: 100%;
   height: auto;
   display: block;
+  -webkit-user-drag: none;
 }
 /* Таблицы */
 table {
@@ -112,9 +113,12 @@ h6 {
   width: 80%;
   height: auto;
   background: #1b1820;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin: 2.5% 10%;
   border-radius: 20px;
+}
+@media (max-width: 704px) {
+  .main {
+    width: 90%;
+    margin: 5% auto;
+  }
 }

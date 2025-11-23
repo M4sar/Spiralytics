@@ -1,0 +1,23 @@
+{
+  "[rocket-mvbasic]": {
+    "editor.codeLens": false
+  },
+  "files.associations": {
+    "**/.rmv/config/*.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.rmv": true,
+    "**/.rmv/catalog/**": true,
+    "*/_*": false
+  },
+  "intellicodeApiExamples.loggingLevel": "OFF",
+  "json.schemas": [],
+  "files.exclude": {
+    "**/*.rmv": true
+  }
+}

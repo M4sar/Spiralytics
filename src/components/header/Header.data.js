@@ -1,8 +1,8 @@
 const logo = "images/logo.png";
-const characters = "images/char.png";
-const inventory = "images/inventory.png";
-const archive = "images/archive.png";
-const calculator = "images/calculator.png";
+const characters = "images/char.svg";
+const inventory = "images/inventory.svg";
+const archive = "images/archive.svg";
+const calculator = "images/calculator.svg";
 
 export const headerContent = [
   { headerImg: logo, headerText: "Spiralytics" },

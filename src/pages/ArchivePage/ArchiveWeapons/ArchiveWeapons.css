@@ -1,0 +1,50 @@
+.grid-container-weapons {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  column-gap: 1.25%;
+  row-gap: 2vh;
+  padding: 2%;
+}
+.grid-list-weapons {
+  position: relative;
+  overflow: hidden;
+  border-radius: 13px;
+  width: 672px;
+  aspect-ratio: 2.1;
+  display: grid;
+  grid-template-columns: repeat(42, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+.archive-card--weap-icon {
+  position: absolute;
+  grid-column: 8 / 20;
+  grid-row: 2 / 13;
+  height: 100%;
+}
+.archive-card--weap-name {
+  background-color: rgba(73, 14, 82, 0.7);
+  grid-column: 1/43;
+  grid-row: 14/21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3125rem;
+  color: rgba(240, 248, 255, 0.97);
+  overflow: hidden;
+}
+.archive-card--weap-rarity {
+  grid-column: 23 / 41;
+  grid-row: 10 / 13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.archive-card--weap-rarity-level-star {
+  height: 100%;
+}
+.archive-card--weap-weaponType {
+  grid-column: 21 / 27;
+  grid-row: 2 / 10;
+  height: 68.75%;
+  aspect-ratio: 1;
+}

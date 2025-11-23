@@ -90,7 +90,7 @@ export function DropdownMenu() {
         {/* Стрелка-индикатор состояния меню */}
         <img
           className="header__nav__lang--img"
-          src="/images/arrow.png"
+          src="/images/arrow.svg"
           alt="Toggle dropdown" // Alt текст для доступности
           style={{
             transform: isOpen ? "rotateX(180deg)" : "",
@@ -119,7 +119,7 @@ export function DropdownMenu() {
             {/* Условно рендерим галочку для выбранного языка */}
             {isOptionSelected(option) && (
               <img
-                src="/images/check.png"
+                src="/images/check.svg"
                 alt="Selected"
                 className="header__lang-menu-icon--selected"
               />

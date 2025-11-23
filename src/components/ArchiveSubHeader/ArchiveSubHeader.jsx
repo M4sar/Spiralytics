@@ -1,6 +1,6 @@
 import "./ArchiveSubHeader.css";
 
-export default function ArchiveSubHeader() {
+export default function ArchiveSubHeader({ setArchiveActiveLink }) {
   const linkList = [
     "Characters",
     "Weapons",
@@ -8,7 +8,6 @@ export default function ArchiveSubHeader() {
     "Enemies",
     "Materials",
   ];
-
   return (
     <div className="archive-subHeader">
       {linkList.map((link, i) => {
@@ -18,9 +17,16 @@ export default function ArchiveSubHeader() {
         else if (i === linkList.length - 1) className += " last-link";
 
         return (
-          <a key={link} className={className} href="">
+          <button
+            key={link}
+            className={className}
+            onClick={(e) => {
+              e.preventDefault();
+              setArchiveActiveLink(link);
+            }}
+          >
             {link}
-          </a>
+          </button>
         );
       })}
     </div>

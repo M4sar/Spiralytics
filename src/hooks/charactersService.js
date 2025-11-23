@@ -1,11 +1,13 @@
 // hooks/useCharacters.js
 import useFetch from "./useFetch.js";
 
-export function useCharacters() {
-  const { data, loading, error } = useFetch("http://localhost:3000/characters");
+export function useArchiveData(linkType) {
+  const { data, loading, error } = useFetch(
+    `http://localhost:3000/${linkType}`
+  );
 
   if (loading || error || !data) {
-    return { charactersData: [], loading, error };
+    return { data: [], loading, error };
   }
   return {
     data,

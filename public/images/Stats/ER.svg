@@ -1,1 +1,19 @@
-<svg aria-hidden="true" data-icon="EnergyRecharge_primary" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" class="h-4 w-4 fill-current text-white"><path fill="currentColor" d="M3.562 7.002a4.03 4.03 0 014.045-4.049L7.606.608C4.09.61 1.216 3.487 1.216 7.003z" fill-opacity=".499" paint-order="stroke markers fill"></path><path fill="currentColor" d="M1.217 7c0 3.516 2.875 6.391 6.391 6.391S14 10.517 14 7 11.124.607 7.608.607v2.345a4.03 4.03 0 014.047 4.047 4.03 4.03 0 01-4.047 4.046 4.03 4.03 0 01-4.046-4.046z" paint-order="stroke markers fill"></path><path fill="currentColor" d="M5.756 8.528L0 9.689l1.872-5.565z" paint-order="stroke markers fill"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 128 128">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill-opacity: .5;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <path class="st1" d="M32.6,64c0-20.3,16.3-36.9,36.7-37,.1,0,.2,0,.3,0V5.6c-32.2,0-58.4,26.3-58.4,58.5h21.4Z"/>
+  <path class="st0" d="M11.1,64c0,32.1,26.3,58.4,58.4,58.4s58.4-26.3,58.4-58.4S101.7,5.6,69.6,5.6v21.4c20.3,0,36.9,16.3,37,36.7,0,.1,0,.2,0,.3,0,20.3-16.3,36.9-36.7,37-.1,0-.2,0-.3,0-20.3,0-36.9-16.3-37-36.7,0,0,0-.2,0-.3H11.1Z"/>
+  <path class="st0" d="M52.6,78L0,88.6l17.1-50.9,35.5,40.3Z"/>
+</svg>

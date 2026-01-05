@@ -46,20 +46,66 @@ export default function ArchiveWeapons({ ArchiveActiveLink }) {
             ))}
           </div>
           {/* weaponType */}
-          <img
-            className="archive-card--weap-weaponType"
-            src={
-              weapon.weapon_type === `Bow`
-                ? `images/Weapons/Bow.svg`
-                : weapon.weapon_type === `Catalyst`
-                ? `images/Weapons/Catalyst.svg`
-                : weapon.weapon_type === `Claymore`
-                ? `images/Weapons/Claymore.svg`
-                : weapon.weapon_type === `Polearm`
-                ? `images/Weapons/Polearm.svg`
-                : `images/Weapons/Sword.svg`
-            }
-          />
+          <div className="archive-card--weap-weaponType">
+            <img
+              style={{ height: "68.75%" }}
+              src={
+                weapon.weapon_type === `Bow`
+                  ? `images/Weapons/Bow.svg`
+                  : weapon.weapon_type === `Catalyst`
+                  ? `images/Weapons/Catalyst.svg`
+                  : weapon.weapon_type === `Claymore`
+                  ? `images/Weapons/Claymore.svg`
+                  : weapon.weapon_type === `Polearm`
+                  ? `images/Weapons/Polearm.svg`
+                  : `images/Weapons/Sword.svg`
+              }
+            />
+          </div>
+          {/* weaponStat (main & sub) */}
+          <div className="archive-card--weap-stats">
+            <div className="archive-card--weap-mainStat">
+              <img
+                src="images/Stats/ATK.svg"
+                className="archive-card--weap-mainStat-ico"
+              />
+              <p>{weapon.base_dmg}</p>
+            </div>
+            {/* Условие для рендера subStat, если он есть */}
+            {weapon.main_attribute && (
+              <div className="archive-card--weap-subStat">
+                <img
+                  className="archive-card--weap-mainStat-ico"
+                  src={
+                    weapon.main_attribute === `ATK%`
+                      ? `images/Stats/ATK%.svg`
+                      : weapon.main_attribute === `HP%`
+                      ? `images/Stats/HP%.svg`
+                      : weapon.main_attribute === `DEF%`
+                      ? `images/Stats/DEF%.svg`
+                      : weapon.main_attribute === `CRIT Rate`
+                      ? `images/Stats/CritRate.svg`
+                      : weapon.main_attribute === `CRIT Rate`
+                      ? `images/Stats/CritRate.svg`
+                      : weapon.main_attribute === `CRIT DMG`
+                      ? `images/Stats/CritDMG.svg`
+                      : weapon.main_attribute === `Energy Recharge`
+                      ? `images/Stats/ER.svg`
+                      : weapon.main_attribute === `Elemental Mastery`
+                      ? `images/Stats/EM.svg`
+                      : weapon.main_attribute === `Physical DMG Bonus`
+                      ? `images/Stats/PhysDMG.svg`
+                      : ``
+                  }
+                />
+                <p>
+                  {weapon.sub_stat < 1
+                    ? (weapon.sub_stat * 100).toFixed(1) + "%"
+                    : weapon.sub_stat}{" "}
+                </p>
+              </div>
+            )}
+          </div>
         </li>
       ))}
     </ul>

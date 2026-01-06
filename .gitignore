@@ -2,3 +2,6 @@
 *.rmv
 .rmv/
 *.log
+node_modules
+dist
+.env
